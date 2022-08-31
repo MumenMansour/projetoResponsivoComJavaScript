@@ -1,0 +1,25 @@
+:root{
+    --hue:210;
+    --base-color:hsl(var(--hue) 100% 27%);
+    --title-color:hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --body-color: hsl(0 0% 98%);
+    
+    --titleFont:'Open Sans', sans-serif;
+    --titleText:'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: var(--body-color);
+}

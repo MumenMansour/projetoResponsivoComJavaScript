@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="SRC/CSS/reset.css">
     <link rel="stylesheet" href="SRC/CSS/style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
 
     <title>Document</title>
-
-
 </head>
-<body>
 
+<body>
     <header id="header">
-        <nav class="container ">
-            <a class="logo" href="#">Senac <span>Barber </span> . </a>
+        <nav class="container">
+            <a class="logo" href="#">Senac <span>Barber</span>.</a>
             <div class="menu">
                 <ul class="grid">
-                    <li>
-                        <a href="" class="title">Início</a>
-                    </li>
-                    <li>
-                        <a href="" class="title">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="" class="title">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="" class="title">Depoimentos</a>
-                    </li>
-                    <li>
-                        <a href="" class="title">Contato</a>
-                    </li>
+                    <li><a href="" class="title">Início</a></li>
+                    <li><a href="" class="title">Sobre</a></li>
+                    <li><a href="" class="title">Serviços</a></li>
+                    <li><a href="" class="title">Depoimentos</a></li>
+                    <li><a href="" class="title">Contato</a></li>
                 </ul>
-                <div class="toggle">ABRIR</div> 
-                <div class="toggle">FECHAR </div>  
+                <div class="toggle">ABRIR</div>
+                <div class="toggle">FECHAR</div>
             </div>
         </nav>
     </header>
@@ -47,17 +39,111 @@
     <section id="home">
         <div class="container grid">
             <div class="image">
-                <img src="SRC/img/topo.jpg" alt=" Barbeiro cortando cabelo de um cliente ">
+                <img src="SRC/img/topo.jpg" alt="Barbeiro cortando o cabelo de um cliente.">
             </div>
+
             <div class="text">
-                <h2 class="title"> O melhor estilo para seu Cabelo e Barba !</h2>
-                <p>Um salão exclusivo em Santa Rosa, especializado  em cuidados masculinos.</p>
+                <h2 class="title">O melhor estilo para seu Cabelo e Barba!</h2>
 
-                <a class="button" href="">Agente seu horario</a>
+                <p>Um salão exclusivo em Santa Rosa, especialziado em cuidados masculinos.
+                </p>
+
+                <a class="button" href="#">Agende seu horário</a>
             </div>
-
         </div>
     </section>
 
+    <div class="divider-1"></div>
+
+    <section id="about">
+        <div class="container grid">
+            <div class="image">
+                <img src="SRC/img/about.webp" alt="Foto interna da barbearia">
+            </div>
+
+            <div class="text">
+                <h2 class="title">Sobre Nós</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto itaque in optio asperiores
+                    assumenda quidem unde amet modi atque, maxime natus ducimus quisquam eligendi dicta repudiandae ad
+                    accusantium, error reiciendis.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quidem dignissimos corrupti impedit
+                    accusantium esse cumque delectus! Repudiandae voluptatem beatae sequi, eligendi omnis, illum,
+                    asperiores labore quod aperiam id quam?</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quidem dignissimos corrupti impedit
+                    accusantium esse cumque delectus! Repudiandae voluptatem beatae sequi, eligendi omnis, illum,
+                    asperiores labore quod aperiam id quam?</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section id="services">
+        <div class="container grid">
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae qui ut quidem eveniet vitae
+                obcaecati eum rem, sunt possimus dicta dolores dolorem cupiditate laborum dolor non quis officia nihil?
+            </p>
+
+            <div class="cards grid">
+                <div class="card">
+                    <h3 class="title">Terapia Capilar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, natus optio mollitia dolor
+                        officiis officia similique et dolorum accusamus nisi tempore quam sit itaque, eveniet ea
+                        expedita qui debitis eius!
+
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="title">Cortes</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, possimus. Nulla error voluptatem
+                        fuga praesentium, vitae minus aperiam quas. Magni, adipisci corporis atque numquam saepe rerum!
+                        Repellendus aliquam maxime libero.</p>
+                </div>
+                <div class="card">
+                    <h3 class="title">Tratamentos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatibus porro eius ad quia
+                        optio, dolore magni, reiciendis, iste blanditiis sapiente? Delectus nemo accusantium suscipit
+                        fugiat nobis neque ducimus eos?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container grid">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
 </body>
+
 </html>
