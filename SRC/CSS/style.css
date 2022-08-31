@@ -23,5 +23,13 @@ img {
 }
 
 body{
-    background-color: var(--body-color);
+    font:400 1rem  var(--text-font);
+    color:var(--text-color);
+    background: var(--base-color);
+}
+
+.title{
+    font: var(--title-font) var(--title-font-size);
+    color: var(--title-color);
+
 }
