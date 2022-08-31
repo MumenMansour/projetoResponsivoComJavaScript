@@ -5,8 +5,10 @@
     --text-color: hsl(0 0% 46%);
     --body-color: hsl(0 0% 98%);
     
-    --titleFont:'Open Sans', sans-serif;
-    --titleText:'Roboto', sans-serif;
+    --title-font:'Open Sans', sans-serif;
+    --text-font:'Roboto', sans-serif;
+    --title-font-size: 1.875rem;
+    --text-font-size: 
 }
 
 ul{
